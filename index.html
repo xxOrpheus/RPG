@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>David's Game</title>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.1.47/jquery.form-validator.min.js"></script>
+		<script type="text/javascript" src="resources/game.js"></script>
+		<script type="text/javascript" src="resources/js/formee.js"></script>
+		<link rel="stylesheet" href="resources/css/formee-structure.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="resources/css/formee-style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="resources/game.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="status">
+				<div class="you">Spectator</div>
+				<meter class="hp" low="30" high="60" optimum="80" min="0" max="100" value="100"></meter>
+				<meter class="mp" low="30" high="60" optimum="80" min="0" max="100" value="100"></meter>
+				<div class="location">?</div>
+				<div class="action">
+					<a href="game/login" class="load">Login</a>
+				</div>
+			</div>
+			<div class="game" id="game"><div class="players"></div><div class="entities"></div><div class="map"></div></div>
+			<div class="inventory"><ul class="items"></ul></div>
+			<div class="chat">
+				<ul class="messages"></ul>
+				<input type="text" name="message" placeholder="..." id="messageBox" maxlength="128" />
+			</div>
+		</div>
+	</body>
+</html>
