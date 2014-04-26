@@ -12,7 +12,7 @@ To use this, you need Ratchet, memcache and memcached installed. I recommend usi
 
 Simply install Composer, then, in the root directory of the project, run "composer update."
 
-# memcache is a little more complicated to install. You can get the binaries from the PECL website. It is just a PHP extension.
+memcache is a little more complicated to install. You can get the binaries from the PECL website. It is just a PHP extension.
 
 You can probably find memcached with a simple Google search.
 
